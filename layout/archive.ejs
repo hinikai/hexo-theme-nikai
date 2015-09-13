@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>倪楷-个人博客</title>
+    <%- css('css/blog') %>
+</head>
+<body>
+
+<div id="layout">
+    <h1>倪楷的博客</h1>
+    <ul class="posts-list">
+    
+    <% page.posts.each(function(post, i){ %>
+        <li>
+          <h2 class="post"><a href="<%- config.root %><%- post.path %>"><span class="date"><%= date(post.date, "YYYY MMM D") %></span> · <%= post.title %></a></h2>
+        </li>
+
+    <% }) %>
+    
+    </ul>
+
+</div>
+
+<%- partial('_partial/footer') %>
+<%- partial('_partial/baidu-tongji') %>
+</body>
+</html>

@@ -1,0 +1,57 @@
+html, body { 
+    margin: 0; 
+    padding: 0;
+}
+
+#layout {
+    position:relative;
+    margin:90px auto;
+    width:800px;
+    overflow: hidden;
+    font-family: Georgia, sans-serif;
+}
+h1 {
+  font-size: 51px;
+  font-weight: normal;
+  color: #222;
+  margin: 40px 0;
+}
+p, li {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+li {
+  margin-bottom: 1.5em;
+}
+p.high {
+  font-size: 23px;
+  color: #000;
+  margin-bottom: 40px;
+}
+a {
+  color: #06c;
+}
+
+#spanish{
+  display:none;
+}
+
+h2 {
+  margin-top: 40px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+li {
+  margin-bottom: 0;
+}
+
+.top-fix{
+    position:absolute;
+    right:0px;
+    top:10px;
+}
