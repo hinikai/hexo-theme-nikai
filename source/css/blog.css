@@ -60,7 +60,7 @@ img {
 p, li {
     margin: 1.8em auto;
     text-align: justify;
-    font-size: 19px;
+    font-size: 100%;
     line-height: 1.7em;
     overflow: auto;
 }
