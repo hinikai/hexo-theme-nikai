@@ -55,7 +55,7 @@ h2.post {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 p, li {
     margin: 1.8em auto;
