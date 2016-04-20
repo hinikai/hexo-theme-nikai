@@ -6,7 +6,7 @@ html, body {
 #layout {
     position:relative;
     margin:90px auto;
-    width:760px;
+    width: 760px;
     overflow: hidden;
     font-family: Georgia, sans-serif;
 }
