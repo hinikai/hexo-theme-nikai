@@ -6,10 +6,9 @@ html, body {
 
 #layout {
     overflow: hidden;
-    font-family: 'Noto Serif', Georgia, sans-serif;
-    text-align: center;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     margin: 70px auto;
-    max-width: 800px;
+    max-width: 760px;
 }
 pre, code {
     text-align: left;
@@ -18,20 +17,19 @@ pre, code {
     overflow: auto;
 }
 h1 {
-    font-size: 25px;
-    font-weight: normal;
-    color: #222;
+    font-size: 35px;
+    font-weight: bold;
+    color: #34404D;
     margin: 50px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 h2 {
     font-size: 18px;
     font-weight: normal;
     color: #444;
-    margin: 50px 0 50px 0px;
+    margin: 20px 0 20px 0px;
     /*text-transform: uppercase;*/
     letter-spacing: -0.01em;
 }
@@ -43,15 +41,17 @@ h2 a {
 }
 
 .post-detail h2 {
-    font-size: 36px;
-    margin: 50px 0 70px 0;
+    font-size: 28px;
+    margin: 20px 0 30px 0;
 }
 
 h2.post {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 0px;
 }
 .posts-list {
     text-align: left;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 img {
