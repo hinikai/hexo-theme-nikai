@@ -1,12 +1,11 @@
 html, body { 
         margin: 0; 
         padding: 0; 
-        background-color: #FFF; 
 }
 
 #layout {
     overflow: hidden;
-    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"Lucida Grande","Luxi Sans",Arial,"Hiragino Sans GB",STHeiti,"Microsoft YaHei","Wenquanyi Micro Hei","WenQuanYi Micro Hei Mono","WenQuanYi Zen Hei","WenQuanYi Zen Hei Mono",LiGothicMed;
     margin: 70px auto;
     max-width: 760px;
 }
@@ -17,9 +16,9 @@ pre, code {
     overflow: auto;
 }
 h1 {
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: bold;
-    color: #34404D;
     margin: 50px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -27,8 +26,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: normal;
-    color: #444;
+    font-weight: bold;
     margin: 20px 0 20px 0px;
     /*text-transform: uppercase;*/
     letter-spacing: -0.01em;
@@ -36,13 +34,13 @@ h2 {
 
 h2 a {
     font-size: 18px;
-    color: #222;
     text-decoration: none;
 }
 
 .post-detail h2 {
-    font-size: 28px;
-    margin: 20px 0 30px 0;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 30px 0 15px 0;
 }
 
 h2.post {
@@ -75,14 +73,18 @@ li {
 
 p.high {
     font-size: 23px;
-    color: #000;
     margin-bottom: 40px;
 }
 p strong {
     font-weight: bold;
 }
+
 a {
-    color: #06c;
+    color: #397dba;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #spanish{
@@ -108,8 +110,7 @@ li {
 .posts-list h2 {
 }
 .date {
-    font-weight: 100;
-    color:#555;
+    font-weight: normal;
 }
 
 iframe{
