@@ -26,7 +26,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
     margin: 20px 0 20px 0px;
     /*text-transform: uppercase;*/
     letter-spacing: -0.01em;
@@ -44,7 +44,8 @@ h2 a {
 }
 
 h2.post {
-    margin: 10px 0 0 0px;
+    margin: 15px 0 5px 0;
+    font-weight: normal;
 }
 .posts-list {
     text-align: left;
@@ -52,11 +53,15 @@ h2.post {
     margin-left: 0;
 }
 
+.posts-list .sub{
+    color: #887;
+}
+
 img {
     max-width: 100%;
 }
 p, li {
-    margin: 1.8em auto;
+    margin: 10px auto;
     text-align: justify;
     font-size: 100%;
     line-height: 1.7em;
